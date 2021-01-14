@@ -1,39 +1,40 @@
 {
-  "name": "blogs",
-  "version": "1.0.0",
-  "description": "Web Blog",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon ./src/index.js",
-    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thanhnha241199/NodeJS.git"
-  },
-  "keywords": [
-    "Blog",
-    "NodeJS"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thanhnha241199/NodeJS/issues"
-  },
-  "homepage": "https://github.com/thanhnha241199/NodeJS#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "method-override": "^3.0.0",
-    "mongoose": "^5.11.10",
-    "mongoose-slug-generator": "^1.0.4"
-  },
-  "devDependencies": {
-    "body-parser": "^1.19.0",
-    "mongoose-delete": "^0.5.3",
-    "morgan": "^1.10.0",
-    "node-sass": "^5.0.0",
-    "nodemon": "^2.0.7"
-  }
+    "name": "blogs",
+    "version": "1.0.0",
+    "description": "Web Blog",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./src/index.js",
+        "start": "node index.js",
+        "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thanhnha241199/NodeJS.git"
+    },
+    "keywords": [
+        "Blog",
+        "NodeJS"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thanhnha241199/NodeJS/issues"
+    },
+    "homepage": "https://github.com/thanhnha241199/NodeJS#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "method-override": "^3.0.0",
+        "mongoose": "^5.11.10",
+        "mongoose-slug-generator": "^1.0.4"
+    },
+    "devDependencies": {
+        "body-parser": "^1.19.0",
+        "mongoose-delete": "^0.5.3",
+        "morgan": "^1.10.0",
+        "node-sass": "^5.0.0",
+        "nodemon": "^2.0.7"
+    }
 }
